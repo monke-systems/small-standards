@@ -1,7 +1,7 @@
 {
   "name": "@monkee/small-standards",
   "description": "@monkee/small-standards package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
