@@ -12,8 +12,8 @@
     "build": "tsc --project tsconfig.build.json",
     "test": "npm run test:integration",
     "test:integration": "jest test",
-    "lint": "eslint \"{src,tests}/**/*.ts\"",
-    "lint:fix": "eslint \"{src,tests}/**/*.ts\" --fix",
+    "lint": "eslint \"{src,test}/**/*.ts\"",
+    "lint:fix": "eslint \"{src,test}/**/*.ts\" --fix",
     "prepublishOnly": "npm run build",
     "clean": "rm -rf lib"
   },
