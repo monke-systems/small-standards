@@ -19,5 +19,8 @@ export type GaugeType = {
 };
 
 export type HistogramType = {
+  startTimer: (
+    startLabels?: Record<string, string>,
+  ) => (endLabels?: Record<string, string>) => number;
   observe: (value: number, labels?: Record<string, string>) => void;
 };
